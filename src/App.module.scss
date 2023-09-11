@@ -63,10 +63,59 @@
   }
 }
 
+.photo-mobile {
+  display: none;
+}
+
+@media only screen and (orientation: portrait) {
+  .photo-mobile {
+    display: block;
+    height: 30rem;
+    width: 30rem;
+    margin-top: 4rem;
+
+    align-self: center;
+
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 3px solid rgba(30, 118, 195);
+  }
+}
+
+.photo-desktop {
+  height: 40rem;
+  width: 40rem;
+  position: absolute;
+  top: 50vh;
+  right: 5vw;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border: 3px solid rgba(30, 118, 195);
+}
+
+@media only screen and (orientation: portrait) {
+  .photo-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .photo-desktop {
+    height: 30rem;
+    width: 30rem;
+  }
+}
+
 .details-wrapper {
   display: flex;
   flex-direction: column;
-  color: black;
+  color: white;
   margin-left: 3rem;
 
   h1 {
@@ -80,8 +129,66 @@
   }
 
   a {
-    color: white;
+    color: rgb(39, 241, 241);
     font-size: 2.4rem;
     margin-top: 1rem;
   }
+}
+
+.about-me-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.about-me {
+  width: 50vw;
+  background-color: rgba(30, 118, 195, 0.7);
+  margin: 4rem;
+  padding: 3rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: white;
+
+  h2 {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  li {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .about-me {
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+    width: 90vw;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+  }
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
 }

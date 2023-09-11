@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./App.module.scss";
 
+import ProjectCard from "./components/project-card/ProjectCard";
+
 function App() {
   return (
     <React.Fragment>
@@ -19,6 +21,12 @@ function App() {
           </div>
         </div>
 
+        <img
+          className={classes["photo-desktop"]}
+          src="/imgs/p2.jpg"
+          alt="paul"
+        />
+
         <div className={classes["header-mobile"]}>
           <div className={classes["details-wrapper"]}>
             <h1>Paul Harris</h1>
@@ -30,7 +38,105 @@ function App() {
             <a href="https://github.com/paul172v">My GitHub</a>
             <a href="mailto:paul172v@aol.com">Email Me</a>
             <a href="tel:+447375384303">Call Me</a>
+
+            <img
+              className={classes["photo-mobile"]}
+              src="/imgs/p2.jpg"
+              alt="paul"
+            />
           </div>
+        </div>
+
+        <div className={classes["about-me-wrapper"]}>
+          <div className={classes["about-me"]}>
+            <h2>About Me</h2>
+
+            <p>
+              👋 Hello there! I'm <span className="highlight">Paul</span>, a
+              passionate and self-taught web developer with three years of
+              hands-on experience. I have a deep-rooted love for coding and am
+              skilled in a range of technologies that span both front-end and
+              back-end development.
+            </p>
+
+            <h3>🛠️ Skills & Technologies</h3>
+            <ul>
+              <li>
+                <strong>Front-end</strong>: HTML, CSS, JavaScript, React.js
+              </li>
+              <li>
+                <strong>Back-end</strong>: Node.js
+              </li>
+              <li>
+                <strong>Full Stack Applications</strong>: Proficient in building
+                end-to-end web solutions
+              </li>
+            </ul>
+
+            <h3>🌱 Continuous Learning</h3>
+            <p>
+              I believe in lifelong learning and have recently expanded my skill
+              set to include Node.js. I'm currently honing my abilities by
+              creating full-stack applications that solve real-world problems.
+            </p>
+
+            <h3>🌍 Availability & Flexibility</h3>
+            <p>
+              I'm actively seeking my first role in the industry and am
+              available to start immediately. Open to both remote work and
+              relocation, I'm flexible and willing to adapt to different work
+              environments.
+            </p>
+
+            <h3>🤝 Let's Connect!</h3>
+            <p>
+              I'm eager to bring my dedication and technical skills to a dynamic
+              team. If you're interested in collaborating or have any
+              opportunities, feel free to contact me.
+            </p>
+          </div>
+        </div>
+
+        <div className={classes["projects-wrapper"]}>
+          <ProjectCard
+            photo="katrina-holt-photography.png"
+            title="Katrina Holt Photography"
+            live="https://katrina-holt-photography.netlify.app/"
+            gitFront="https://github.com/paul172v/katrina-holt-photography"
+            gitBack=""
+          />
+
+          <ProjectCard
+            photo="london-wayfarer.png"
+            title="The London Wayfarer"
+            live="https://london-wayfarer.netlify.app/"
+            gitFront="https://github.com/paul172v/The-London-Wayfarer-v2"
+            gitBack=""
+          />
+
+          <ProjectCard
+            photo="clyde-hostel.png"
+            title="Clyde Hostel"
+            live="https://clyde-hostel.netlify.app/"
+            gitFront="https://github.com/paul172v/clyde-hostel"
+            gitBack=""
+          />
+
+          <ProjectCard
+            photo="view.png"
+            title="The View Menus"
+            live="https://172v-restaurant-proto.netlify.app/"
+            gitFront="https://github.com/paul172v/view_menus"
+            gitBack=""
+          />
+
+          <ProjectCard
+            photo="employee-database.png"
+            title="172v Employee Database"
+            live="https://172v-employee-database.netlify.app/"
+            gitFront="https://github.com/paul172v/employee-database--frontend"
+            gitBack="https://github.com/paul172v/employee-database--backend"
+          />
         </div>
       </div>
       <video
