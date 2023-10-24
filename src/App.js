@@ -41,7 +41,7 @@ function App() {
 
             <img
               className={classes["photo-mobile"]}
-              src="/imgs/p2.jpg"
+              src="/imgs/p1.jpg"
               alt="paul"
             />
           </div>
