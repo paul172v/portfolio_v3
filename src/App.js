@@ -104,6 +104,13 @@ function App() {
             live="https://kayleigh-parks-art.netlify.app/"
             gitFront="https://github.com/paul172v/kayleigh-parks-art"
             gitBack=""
+            keyFeatures={[
+              "React.js",
+              "React-Scroll",
+              "Modal Gallery",
+              "Responsive",
+            ]}
+            description="This is a basic one page brochure website that uses a real-world design. It's not very complicated but it is responsive, uses simple components and props. It uses a library called react-scroll to scroll to anchors and there is a hand coded modal gallery."
           />
 
           <ProjectCard
@@ -112,6 +119,16 @@ function App() {
             live="https://172v-view-online-menus.netlify.app/"
             gitFront="https://github.com/paul172v/view_menus"
             gitBack="https://github.com/paul172v/view-backend-server"
+            keyFeatures={[
+              "FullStack",
+              "React.js",
+              "Node.js",
+              "Responsive",
+
+              "Filter",
+              "SCSS",
+            ]}
+            description="This is an online menu for a restaurant, based on a real menu from a real restaurant. It gets all of the different menus as arrays from a backend and database shared with 'The View Interface' meaning the menu can be updated elsewhere. Once it gets the menu arrays the site will automatically generate itself based on the information it has thanks to conditional rendering and good use of components. This project is light on hooks but I have coded a filter that will only show menu items that meet selected dietary requirements."
           />
 
           <ProjectCard
@@ -120,6 +137,17 @@ function App() {
             live="https://172v-view-interface-form.netlify.app/"
             gitFront="https://github.com/paul172v/view-menu-interface-form"
             gitBack="https://github.com/paul172v/view-backend-server"
+            keyFeatures={[
+              "FullStack",
+              "React.js",
+              "Good use of Hooks and props",
+              "Conditional Rendering",
+              "Node.js",
+              "Express",
+              "Mongoose",
+              "CRUD Operations",
+            ]}
+            description="This is the sister site of The View Online Menus. It is basically a giant form that will allow users to update the menu arrays on a database. This project made frequent use of useState, useReducer, useEffect, useRef, useContext and the usePortal hooks. As well as good use of components and props. The backend uses Express and Mongoose, does basic CRUD operations and also has some error handling and a handler factory to make the CRUD operations more streamlined. It uses over 20 models and the routes and controllers are divided between the main, kids and drinks menus. This is my first time making a 'proper' fullstack application but I am pleased with the results. This is also mobile friendly."
           />
         </div>
       </div>
