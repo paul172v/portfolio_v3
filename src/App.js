@@ -23,7 +23,7 @@ function App() {
 
         <img
           className={classes["photo-desktop"]}
-          src="/imgs/p2.jpg"
+          src="/imgs/p1.jpg"
           alt="paul"
         />
 
@@ -99,43 +99,27 @@ function App() {
 
         <div className={classes["projects-wrapper"]}>
           <ProjectCard
-            photo="katrina-holt-photography.png"
-            title="Katrina Holt Photography"
-            live="https://katrina-holt-photography.netlify.app/"
-            gitFront="https://github.com/paul172v/katrina-holt-photography"
-            gitBack=""
-          />
-
-          <ProjectCard
-            photo="london-wayfarer.png"
-            title="The London Wayfarer"
-            live="https://london-wayfarer.netlify.app/"
-            gitFront="https://github.com/paul172v/The-London-Wayfarer-v2"
-            gitBack=""
-          />
-
-          <ProjectCard
-            photo="clyde-hostel.png"
-            title="Clyde Hostel"
-            live="https://clyde-hostel.netlify.app/"
-            gitFront="https://github.com/paul172v/clyde-hostel"
+            photo="kayleigh-parks-art.jpg"
+            title="Kayleigh Parks Art"
+            live="https://kayleigh-parks-art.netlify.app/"
+            gitFront="https://github.com/paul172v/kayleigh-parks-art"
             gitBack=""
           />
 
           <ProjectCard
             photo="view.png"
-            title="The View Menus"
-            live="https://172v-restaurant-proto.netlify.app/"
+            title="The View Online Menus"
+            live="https://172v-view-online-menus.netlify.app/"
             gitFront="https://github.com/paul172v/view_menus"
-            gitBack=""
+            gitBack="https://github.com/paul172v/view-backend-server"
           />
 
           <ProjectCard
-            photo="employee-database.png"
-            title="172v Employee Database"
-            live="https://172v-employee-database.netlify.app/"
-            gitFront="https://github.com/paul172v/employee-database--frontend"
-            gitBack="https://github.com/paul172v/employee-database--backend"
+            photo="view-interface.png"
+            title="The View Interface Form"
+            live="https://172v-view-interface-form.netlify.app/"
+            gitFront="https://github.com/paul172v/view-menu-interface-form"
+            gitBack="https://github.com/paul172v/view-backend-server"
           />
         </div>
       </div>
@@ -144,6 +128,7 @@ function App() {
         src="/vids/background.mp4"
         autoplay="true"
         loop="true"
+        mute="true"
       />
     </React.Fragment>
   );
