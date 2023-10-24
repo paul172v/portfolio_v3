@@ -141,7 +141,7 @@ function App() {
               "React.js",
               "Good use of Hooks and props",
               "Conditional Rendering",
-              "responsive",
+              "Responsive",
               "Node.js",
               "Express",
               "Mongoose",
