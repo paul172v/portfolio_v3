@@ -124,7 +124,6 @@ function App() {
               "React.js",
               "Node.js",
               "Responsive",
-
               "Filter",
               "SCSS",
             ]}
@@ -142,6 +141,7 @@ function App() {
               "React.js",
               "Good use of Hooks and props",
               "Conditional Rendering",
+              "responsive",
               "Node.js",
               "Express",
               "Mongoose",
