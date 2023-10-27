@@ -104,12 +104,7 @@ function App() {
             live="https://kayleigh-parks-art.netlify.app/"
             gitFront="https://github.com/paul172v/kayleigh-parks-art"
             gitBack=""
-            keyFeatures={[
-              "React.js",
-              "React-Scroll",
-              "Modal Gallery",
-              "Responsive",
-            ]}
+            keyFeatures={["React.js", "React-Scroll", "Modal Gallery"]}
             description="This is a basic one page brochure website that uses a real-world design. It's not very complicated but it is responsive, uses simple components and props. It uses a library called react-scroll to scroll to anchors and there is a hand coded modal gallery."
           />
 
@@ -139,9 +134,8 @@ function App() {
             keyFeatures={[
               "FullStack",
               "React.js",
-              "Good use of Hooks and props",
+              "Good use of Hooks and Props",
               "Conditional Rendering",
-              "Responsive",
               "Node.js",
               "Express",
               "Mongoose",
